@@ -45,8 +45,6 @@
     
 }
 
-
-
 .login{
     color: #30a797;
 }
@@ -79,16 +77,6 @@
     align-content: center;
     background-color: none;
 
-}
-
-.articulos{
-    display: grid;
-    grid-template-columns: 20% 20% 20%;
-    grid-template-rows: 40%;
-    overflow: auto;
-    gap: 2%;
-    justify-content: center;
-    background-color: none;
 }
 
 @font-face {
