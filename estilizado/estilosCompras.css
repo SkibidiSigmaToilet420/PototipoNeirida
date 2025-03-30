@@ -1,0 +1,347 @@
+*{
+    transition: all ease-in-out 0.3s;
+    font-family: 'Lovelo', sans-serif;
+}
+
+.general{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 50% 6% 10%;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    background-image:  linear-gradient(to bottom, #FFFFFF, #e4fff9);
+    overflow: auto;
+    gap: 1%;
+}
+
+.formulario{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#Tamaño{
+    width: 19vw;
+}
+
+.formulario form p{
+   font-size: 1.5vw; 
+}
+
+#botonComprar{
+    background-color: #48149c;
+    border-radius: 1vw;
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 33vw;
+    height: 5vh;
+    font-size: 20px;*{
+    transition: all ease-in-out 0.3s;
+    font-family: 'Lovelo', sans-serif;
+    box-sizing: border-box;
+}
+
+.formulario2{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+.general{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 50% 6% 10%;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    background-image:  linear-gradient(to bottom, #FFFFFF, #e4fff9);
+    overflow: auto;
+    gap: 1%;
+    padding: 0;
+    margin: 0;
+}
+
+.formulario{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+
+#botonComprar{
+    background-color: #48149c;
+    border-radius: 1vw;
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 20vw;
+    height: 5vh;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+}
+
+.eltitulo{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+    align-content: center;
+    background-color: none;
+    color: #30a797;
+    padding: 20px;
+}
+
+.boton{
+    grid-column: 1;
+    grid-row: 4;
+    background-color: #48149c;
+    border-radius: 1vw;
+    cursor: pointer;
+    width: 20vw;
+    height: 5vh;
+    margin: 0 auto;
+    font-size: 1.5vw;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+}
+
+#botonsubir{
+    background-color: #30a797;
+}
+
+.imgageningresada{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+    background-color: none;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Imagenpedido{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+    background-color: none;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ingreso{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+    background-color: none;
+    align-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.titulo{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+    background-color: none;
+    align-content: center;
+    padding: 20px;
+}
+
+.imagen{
+    display: grid;
+    background-color: none;
+    justify-content: center;
+    overflow: auto;
+    padding: 20px;
+}
+
+.info{
+    display: grid;
+    background-color: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: min-content;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.pago{
+    display: grid;
+    background-color: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 3.5vw;
+    margin: auto;
+    padding: 20px;
+}
+
+h2{
+    font-size: 2vw;
+    margin: 0%;
+    padding: 20px;
+}
+
+img{
+    width: 30vw;
+    padding: 20px;
+}
+
+label{
+    font-size: 1.3vw;
+    padding: 20px;
+}
+
+button{
+    border-radius: 1vw;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: 'Lovelo';
+    src:url('fuentes/Lovelo/Lovelo\ Black.otf') format('opentype'),
+        url("Fuentes/Lovelo/Lovelo\ Line\ Bold.otf") format("opentype"),
+        url("Fuentes/Lovelo/Lovelo\ Line\ Light.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+}
+
+.eltitulo{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content;
+    align-content: center;
+    background-color: none;
+    color: #30a797;
+}
+
+.boton{
+    grid-column: 1;
+    grid-row: 4;
+    background-color: #48149c;
+    border-radius: 1vw;
+    cursor: pointer;
+    width: 20vw;
+    height: 5vh;
+    margin: 0 auto;
+    font-size: 1.5vw;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#botonsubir{
+    background-color: #30a797;
+}
+
+
+.imgageningresada{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content;
+    background-color: none;
+    align-content: center;
+    justify-content: center;
+}
+
+.Imagenpedido{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content;
+    background-color: none;
+    align-content: center;
+    justify-content: center;
+}
+
+.ingreso{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content;
+    background-color: none;
+    align-content: center;
+    width: 80%; /* Set width to 80% */
+    margin: 0 auto; /* Center the element */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.titulo{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content;
+    background-color: none;
+    align-content: center;
+}
+
+.imagen{
+    display: grid;
+    background-color: none;
+    justify-content: center;
+    overflow: auto;
+}
+
+.info{
+    display: grid;
+    background-color: none;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: min-content;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.pago{
+    display: grid;
+    background-color: none;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3.5vw;
+    margin: auto;
+}
+
+h2{
+    font-size: 2vw;
+    margin: 0%;
+}
+
+img{
+    width: 30vw;
+}
+
+label{
+    font-size: 1.3vw;
+}
+
+button{
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+
+@font-face {
+    font-family: 'Lovelo';
+    src:url('fuentes/Lovelo/Lovelo\ Black.otf') format('opentype'),
+        url("Fuentes/Lovelo/Lovelo\ Line\ Bold.otf") format("opentype"),
+        url("Fuentes/Lovelo/Lovelo\ Line\ Light.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}

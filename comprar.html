@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+</head>
+<link rel="stylesheet" href="estilizado/estilosCompras.css">
+<body>
+    <div class="general">
+        <div class="eltitulo">
+            <center>
+                <h1>Compras</h1>
+            </center>
+        
+            <center>
+                <h2 class="nombreservicio">Ingresa las dimesiones y verifica el precio de tu pedido</h2>
+            </center>
+
+        </div>
+        
+        <div class="Imagenpedido">
+            <img alt="No se ha ingresado una imagen valida">
+        </div>
+
+        <div class="formulario">
+            <form action="item.html" method="post" class="formulario2">
+                <center>
+                    <input type="number" id="Tamaño" name="Tamaño" placeholder="Tamaño en cm." required oninput="CalcularPrecio()"> 
+                <p> 
+                Precio por cm: 7.80 Bs.
+                </p>
+                </center>
+                
+
+
+                <br><br>
+                <button type="button" id="botonComprar" onclick="alo()">Comprar</button>
+            </form>
+
+        </div>
+
+
+    </div>
+   
+    <script src="paquetes/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="funcionescompras.js"></script> 
+</body>
+</html>

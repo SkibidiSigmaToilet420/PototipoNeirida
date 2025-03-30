@@ -1,0 +1,138 @@
+*{
+    transition: all ease-in-out 0.3s;
+    font-family: 'Lovelo', sans-serif;
+}
+
+.general{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 20% 55% 10%;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    background-image:  linear-gradient(to bottom, #FFFFFF, #e4fff9);
+    overflow: auto;
+    gap: 1%;
+}
+
+.eltitulo{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content;
+    align-content: center;
+    background-color: none;
+    color: #30a797;
+}
+
+.fondo{
+    position: absolute;
+    top: 0%;
+    left: 0%;   
+}
+
+.boton{
+    background-color: #48149c;
+    border-radius: 1vw;
+    cursor: pointer;
+    width: 20vw;
+    height: 5vh;
+    margin: auto;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#botonsubir{
+    color: #ffffff;
+}
+
+
+.imgageningresada{
+    padding: 20px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+
+.ingreso{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content;
+    background-color: none;
+    align-content: center;
+    width: 80%; /* Set width to 80% */
+    margin: 0 auto; /* Center the element */
+    padding: 20px; /* Add padding for better spacing */
+    
+}
+
+
+
+.titulo{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content;
+    background-color: none;
+    align-content: center;
+}
+
+.imagen{
+    display: grid;
+    background-color: none;
+    justify-content: center;
+    overflow: auto;
+}
+
+.info{
+    display: grid;
+    background-color: none;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: min-content;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.pago{
+    display: grid;
+    background-color: none;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3.5vw;
+    margin: auto;
+}
+
+h2{
+    font-size: 2vw;
+    margin: 0%;
+}
+
+img{
+    width: 30vw;
+}
+
+label{
+    font-size: 1.3vw;
+}
+
+button{
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+
+@font-face {
+    font-family: 'Lovelo';
+    src:url('fuentes/Lovelo/Lovelo\ Black.otf') format('opentype'),
+        url("Fuentes/Lovelo/Lovelo\ Line\ Bold.otf") format("opentype"),
+        url("Fuentes/Lovelo/Lovelo\ Line\ Light.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}

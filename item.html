@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<link rel="stylesheet" href="estilizado/estilosItem.css">
+<body>
+    <div class="general">
+
+        <div class="eltitulo">
+            <center>
+            <h1>Pedido</h1>
+        </center>
+    
+        <center>
+            <h2 class="nombreservicio">Ingresa tu diseño en formato PNG</h2>
+        </center>
+        </div>
+        
+    
+        <div class="ingreso">
+            <center>
+            <input type="file" id="imageUpload" accept="image/png" id="inputimagen">  
+            </center>
+            
+            <br><br>
+            <button onclick="validateImage()" class="boton" id="botonsubir">Subir Imagen</button>
+            <center><p id="errorMessage" style="color: red;"></p></center>
+            
+        </div>
+    
+        <div class="imgageningresada">
+            <img>
+        </div>
+    
+        <div class="boton">
+            <a href="comprar.html">
+                <button>Procesar</button>
+            </a>
+            
+        </div>
+    </div>
+    <script src="funcionesItem.js"></script> 
+</body>
+</html>

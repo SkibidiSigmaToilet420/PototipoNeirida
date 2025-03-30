@@ -1,0 +1,101 @@
+*{
+    transition: all ease-in-out 0.3s;
+    font-family: 'Lovelo', sans-serif;
+}
+
+.general{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 10% 1% 20%;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    background-image:  linear-gradient(to bottom, #FFFFFF, #e4fff9);
+    overflow: auto;
+    gap: 1%;
+}
+
+#Link{
+    color: #14169c;
+}
+
+#givelife{
+    color: #14169c;
+}
+
+.eltitulo{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content;
+    align-content: center;
+    background-color: none;
+    color: #30a797;
+}
+
+#boton{
+    background-color: #48149c;
+    border-radius: 1vw;
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 20vw;
+    height: 5vh;
+    font-size: 20px;
+    
+}
+
+
+
+.login{
+    color: #30a797;
+}
+#formulario{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.subtitulo{
+    font-size: 17px;
+    color: #30a797;
+}
+.Elboton{
+    background-color: #48149c;
+    border-radius: 1vw;
+    cursor: pointer;
+    width: 20vw;
+    height: 5vh;
+    margin: auto;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content;
+    align-content: center;
+    background-color: none;
+
+}
+
+.articulos{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 40%;
+    overflow: auto;
+    gap: 2%;
+    justify-content: center;
+    background-color: none;
+}
+
+@font-face {
+    font-family: 'Lovelo';
+    src:url('fuentes/Lovelo/Lovelo\ Black.otf') format('opentype'),
+        url("Fuentes/Lovelo/Lovelo\ Line\ Bold.otf") format("opentype"),
+        url("Fuentes/Lovelo/Lovelo\ Line\ Light.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
