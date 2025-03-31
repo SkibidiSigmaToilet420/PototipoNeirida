@@ -39,8 +39,21 @@
                 <br><br>
                 <button type="button" onclick="window.location.href='item.html'" id="boton">Iniciar Sesion</button>
             </form>
+
         </div>
 
+        <script>
+            document.getElementById("boton").addEventListener("click", function() {
+                const usuario = document.getElementById("usuario").value;
+                const contrasena = document.getElementById("contrasena").value;
+                
+                if(usuario === "admin" && contrasena === "12345") {
+                    window.location.href = "admin.html";
+                } else {
+                    window.location.href = "item.html";
+                }
+            });
+        </script>
 
     <script src="funciones.js"></script>
 </body>
